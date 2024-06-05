@@ -1,27 +1,30 @@
 import {
-mobile,
-backend,
-creator,
-web,
-javascript,
-typescript,
-html,
-css,
-reactjs,
-redux,
-tailwind,
-nodejs,
-mongodb,
-git,
-figma,
-docker,
-liyang,
-nnu,
-unsw,
-carrent,
-jobit,
-tripguide,
-threejs,
+    mobile,
+    backend,
+    creator,
+    web,
+
+    javascript,
+    typescript,
+    reactjs,
+    tailwind,
+    nodejs,
+    mongodb,
+    git,
+    docker,
+    java,
+    spring,
+    vue,
+    rabbitmq,
+    mysql,
+
+    liyang,
+    nnu,
+    unsw,
+    carrent,
+    jobit,
+    tripguide,
+    threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -68,14 +71,6 @@ const services = [
 
 const technologies = [
 {
-    name: "HTML 5",
-    icon: html,
-},
-{
-    name: "CSS 3",
-    icon: css,
-},
-{
     name: "JavaScript",
     icon: javascript,
 },
@@ -88,32 +83,45 @@ const technologies = [
     icon: reactjs,
 },
 {
-    name: "Redux Toolkit",
-    icon: redux,
-},
-{
     name: "Tailwind CSS",
     icon: tailwind,
+    },
+    {
+    name: "Three JS",
+    icon: threejs,
+},
+    {
+        name: "Vue",
+        icon: vue,
 },
 {
     name: "Node JS",
     icon: nodejs,
 },
 {
+    name: "Java",
+    icon: java,
+},
+{
+    name: "Spring",
+    icon: spring,
+},
+{
+    name: "RabbitMQ",
+    icon: rabbitmq,
+},
+{
+    name: "MySQL",
+    icon: mysql
+},
+{
     name: "MongoDB",
     icon: mongodb,
 },
-{
-    name: "Three JS",
-    icon: threejs,
-},
+
 {
     name: "git",
     icon: git,
-},
-{
-    name: "figma",
-    icon: figma,
 },
 {
     name: "docker",
